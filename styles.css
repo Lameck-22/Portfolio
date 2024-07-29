@@ -1,0 +1,397 @@
+/*Base styles (extra small devices-mobile)*/
+/*CSS rules*/
+html{
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+    width: 100%;
+    background: white;
+}
+
+#header{
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    color: #1e3a8a;
+    background-color: black;    
+    
+}
+header p{
+    color: #1e3a8a;
+    font-weight: 700;
+    font-size: 20px;
+    position: sticky;
+    z-index: 999;
+    text-align: center;
+}
+
+
+#short{
+    color:#6d28d9;
+    text-decoration: overline;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#navbar li :hover{
+    color: beige;
+}
+
+#navbar li a {
+    text-decoration: none;
+}
+
+#properties{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+#image{
+    width: 50%;
+    box-shadow: #1e3a8a;
+    align-items: center;
+    background-color: black;
+    
+}
+
+#paragraph{
+    width: 50%;
+    color: black;
+    background-color:black;
+    font-style:roboto ;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 15px;
+    padding: 16px;
+}
+
+#paragraph h1, h2{
+    color: #1e3a8a;
+    font-weight: 500px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+#paragraph p{
+    color: #8946f5;
+}
+
+#contact{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+#contact ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-decoration: none;
+        padding: 32px;
+    
+}
+    
+ #contact ul li{
+        text-decoration: none;
+    }
+    
+#contact ul a{
+        padding: 32px;
+    }
+.contact{
+        list-style: none;
+ }
+
+.contact li :hover{
+    color: beige;
+}
+
+
+/*Small devices(tablets)*/
+@media screen and (min-width:576px){
+/*CSS rules*/}
+
+/*Medium devices (laptops)*/
+@media screen and (min-width:768px){
+    /*CSS rules*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+    width: 100%;
+    background: black;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 80px;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    
+}
+
+#header p{
+    color: #1e3a8a;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0 0 0 200px;
+    position: sticky;
+    z-index: 999;
+}
+
+
+
+
+#short{
+    color:#6d28d9;
+    text-decoration: overline;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#navbar li :hover{
+    color: beige;
+}
+
+#navbar li a{
+    text-decoration: none;
+}
+
+#navbar a :active{
+    color:#ffff ;
+
+}
+
+
+
+#properties{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:black;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+#image{
+    width: 50%;
+    box-shadow: #1e3a8a;
+    align-items: center;
+    background-color: black;
+}
+#paragraph{
+    width: 50%;
+    color: black;
+    background-color:black;
+    font-style:roboto ;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 20px;
+    padding: 16px;
+}
+#paragraph h1, h2{
+    color: #1e3a8a;
+    font-weight: 900px;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+#paragraph p{
+    color: #8946f5;
+}
+
+#contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+#contact ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+#contact ul li{
+    text-decoration: none;
+}
+
+#contact ul a{
+    padding: 32px;
+}
+
+.contact{
+    list-style: none;
+}
+}
+.contact li :hover{
+    color: beige;
+}
+
+
+/*
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+    width: 100%;
+    background: black;
+}
+#header{
+    display: flex;
+    align-items: center;
+    padding: 20px 80px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+#header p{
+    color: #1e3a8a;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0 0 0 200px;
+    position: sticky;
+    z-index: 999;
+}
+
+
+
+
+#short{
+    color:#6d28d9;
+    text-decoration: overline;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar a :active{
+    color:#ffff ;
+
+}
+
+
+
+
+#properties{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:black;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+#image{
+    width: 50%;
+    box-shadow: #1e3a8a;
+    align-items: center;
+    background-color: black;
+}
+#paragraph{
+    width: 50%;
+    color: black;
+    background-color:black;
+    font-style:roboto ;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 20px;
+    padding: 16px;
+}
+#paragraph h1, h2{
+    color: #1e3a8a;
+    font-weight: 900px;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+#paragraph p{
+    color: #8946f5;
+}
+
+#contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+#contact ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+#contact ul li{
+    text-decoration: none;
+}
+
+#contact ul a{
+    padding: 16px;
+}
+.contact{
+    list-style: none;
+}
+*/
